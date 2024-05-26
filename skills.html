@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skills</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      body {
+        height: 100vh;
+        margin-inline: 80px;
+        overflow: hidden;
+        background: linear-gradient(#a89bce, #a89bb6);
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-block: 17px;
+
+        /*  */
+        p {
+          color: #fff;
+          font-size: 26px;
+          text-transform: uppercase;
+        }
+
+        /*  */
+        ul {
+          list-style-type: none;
+          display: flex;
+          align-items: center;
+          gap: 17px;
+
+          li a {
+            color: #fff;
+            font-size: 18px;
+            text-decoration: none;
+
+            &:hover {
+              color: papayawhip;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+
+      main {
+        margin-top: 20px;
+
+        h4 {
+          color: whitesmoke;
+        }
+
+        h1 {
+          margin-block: 17px;
+        }
+
+        /*  */
+        ul {
+          li {
+            margin-block: 14px;
+            font-size: 18px;
+          }
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h1>Portfolio</h1>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/skills.html">Skills</a></li>
+      </ul>
+    </nav>
+    <hr />
+    <br />
+
+    <main>
+      <h1>Skills</h1>
+
+      <ul>
+        <li>JavaScript</li>
+        <li>React.js</li>
+        <li>Tailwind CSS</li>
+        <li>Flask</li>
+        <li>My SQL Database</li>
+      </ul>
+    </main>
+  </body>
+</html>
